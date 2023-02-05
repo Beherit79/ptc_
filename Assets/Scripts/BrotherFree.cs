@@ -1,7 +1,9 @@
 using UnityEngine;
 
+// INHERITANCE
 public class BrotherFree : Character
 {
+    // POLYMORPHISM
     protected override void SaySomething()
     {
         TextChat.text = "Hello, I'm a Free Character!";
